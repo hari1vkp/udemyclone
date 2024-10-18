@@ -1,0 +1,19 @@
+.full{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.blackbox{
+    background-color: #000000;
+    color: aliceblue;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+.notes{
+    border: white solid 2px;
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+}

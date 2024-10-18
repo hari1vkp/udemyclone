@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gabarito", sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+.logo{
+    color: blueviolet;
+    font-size: 32px;
+}
+.nb2{
+    display: flex;
+    border: 2px black solid;
+    width: 60%;
+    gap: 30px;
+    border-radius: 20px;
+}
+.nb3{
+    display: flex;
+    gap: 30px;
+}
+.nb2 input{
+    border: none;
+    width: 80%;
+}
+.nb2 input:focus{
+    outline: none;
+}
+.nb3 i:hover,.nb3 p:hover{
+    color: blueviolet;
+
+}
+.cat{
+    display: flex;
+    border-bottom: solid black 2px;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+
+}
+.cat div{
+    width: 200px;
+    border: solid black px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 20px;
+}
+.cat div h2{
+    font-size: 18px;
+    margin: 2px;
+}
+.cat div:hover{
+    background-color: blueviolet;
+    border: 2px black solid;
+    color: aliceblue;
+
+}
+.img_banner{
+    position: relative;
+}
+.img_banner img{
+    width: 100%;
+}
+
+img:hover img{
+    opacity: 3%;
+    z-index: -1;
+}
+
+
+
+.texthov{
+    position: relative;
+    text-align: center;
+    top: -100px;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+
+
+}
+.rec_box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+}
+.rec_parent h2{
+    text-align: center;
+}
+
+.rec1{
+    width: 20%;
+    padding: 5px;
+    
+}
+.buy_button{
+    
+    width: 80%;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    margin: auto;
+
+}
+.rec1 img{
+    width: 100%;
+}
+.rec1:hover{
+    background-color: #be99e1;
+    color: aliceblue;
+    transition: .5s;
+    /*zoom: 200%;
+    -ms-zoom-animation: inherit;*/
+    width: 25%;
+    box-shadow: 2px 2px 5px gray ;
+}
+.buy_button:hover{
+
+    width: 85%;
+    text-align: center;
+    background-color: rgb(21, 21, 21);
+    color:white;
+    border:black solid 2px  ;
+    transition: .6s;
+    
+}
+.topics{
+    padding: 20px;
+    text-align: center;
+}
+.topic_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.topic_box h1{
+    border: black solid 2px;
+    padding: 2px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    font-size: medium;
+    margin: 4px;
+
+
+}
+.Popular{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+.foot1{
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+    font-size: 18px;
+
+}
+.foo1_1 p,.foot1_2 p{
+    margin: 10px;
+    
+}
+.foot2{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px ;
+    padding-left: 60px ;
+    align-items: center;
+}
+
